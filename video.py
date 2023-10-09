@@ -1,6 +1,13 @@
-#Test message
+#Threshold range for capturing item of interest (box of gum) was set somewhat wide spanning most of the blue color spectrum
+#range was [83,100,100] to [103,255,255]
 
+#HSV and a moderate amount of light without excessive flare was most conducive towards tracking
 
+#Using phone brightness hurts tracking is it begins to saturate the entire frame with whatever color is selected on the screen
+
+#Contour tracking source:https://docs.opencv.org/4.x/dd/d49/tutorial_py_contour_features.html
+#Thresholding source: https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html
+#Object tracking source: https://toptechboy.com/using-contours-in-opencv-to-track-an-object-of-interest/
 import numpy as np
 import cv2
 
